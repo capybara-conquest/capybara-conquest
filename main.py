@@ -113,8 +113,8 @@ idle_frames = SpriteSheet(idle_sheet).cut_strip(
 
 # Animation dictionary
 player_animations = {
-    "walk": Animation(walk_frames, 0.1),
-    "idle": Animation(idle_frames, 0.7)
+    "walk": Animation(walk_frames, 0.05),
+    "idle": Animation(idle_frames, 0.1)
 }
 
 # Create player
